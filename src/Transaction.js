@@ -144,7 +144,7 @@ export default function TransactionsDashboard() {
         }}
         columns={[
           { title: "Código", dataIndex: "code", key: "code"},
-          { title: "Fecha", dataIndex: "date", key: "date", render: (date) => dayjs(date).format("DD-MM-YYYY HH:mm") },
+          { title: "Fecha", dataIndex: "date", key: "date" },
           { title: "Acción", dataIndex: "action", key: "action" },
           { title: "Categoría", dataIndex: "type", key: "type" },
           { title: "Monto", dataIndex: "amount", key: "amount" },
